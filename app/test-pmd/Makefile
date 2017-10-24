@@ -59,6 +59,7 @@ SRCS-y += rxonly.c
 SRCS-y += txonly.c
 SRCS-y += csumonly.c
 SRCS-y += icmpecho.c
+SRCS-y += ipecho.c
 SRCS-$(CONFIG_RTE_LIBRTE_IEEE1588) += ieee1588fwd.c
 
 ifeq ($(CONFIG_RTE_LIBRTE_PMD_SOFTNIC)$(CONFIG_RTE_LIBRTE_SCHED),yy)

@@ -2137,7 +2137,7 @@ void
 fwd_config_setup(void)
 {
 	cur_fwd_config.fwd_eng = cur_fwd_eng;
-	if (strcmp(cur_fwd_eng->fwd_mode_name, "icmpecho") == 0) {
+	if ((strcmp(cur_fwd_eng->fwd_mode_name, "icmpecho") == 0) || (strcmp(cur_fwd_eng->fwd_mode_name, "ipecho") == 0)) {
 		icmp_echo_config_setup();
 		return;
 	}

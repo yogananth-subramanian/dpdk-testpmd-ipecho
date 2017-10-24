@@ -299,6 +299,7 @@ extern struct fwd_engine rx_only_engine;
 extern struct fwd_engine tx_only_engine;
 extern struct fwd_engine csum_fwd_engine;
 extern struct fwd_engine icmp_echo_engine;
+extern struct fwd_engine ip_echo_engine;
 #ifdef TM_MODE
 extern struct fwd_engine softnic_tm_engine;
 extern struct fwd_engine softnic_tm_bypass_engine;
